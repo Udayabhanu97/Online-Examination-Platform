@@ -154,3 +154,6 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
 
 
+CSRF_TRUSTED_ORIGINS = [
+    "https://online-examination-platform-production.up.railway.app"
+]
